@@ -5,7 +5,7 @@ Thanks to [stefanoverna](https://github.com/stefanoverna) and [Arkham](https://g
 
 ## Installation:
 
-Prerequisites: `vim` (7.4+), `git`
+Prerequisites: `vim` (7.4+), `git`, `silversearcher-ag`
 
 1. Move your existing configuration somewhere else:
    `mv .vim* .gvim* my_backup`
