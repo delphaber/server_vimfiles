@@ -26,3 +26,7 @@ Prerequisites: `vim` (7.4+), `git`, `silversearcher-ag`
 5. On install complete, quit vim and open it again.
 
 6. Profit!
+
+## Author
+
+made with ❤️ and ☕️ by [weLaika](http://dev.welaika.com)
