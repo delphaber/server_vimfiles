@@ -12,5 +12,7 @@ if [[ -f "$VIMRC_PATH" ]]; then
   echo "${VIMRC_PATH} already exists. Abort."
 else
   ln -s "${VIM_DIR}/vimrc" "$VIMRC_PATH"
-  echo "Open vim and run :PluginInstall"
+  # The first time this command returns an exit code equals to 1 and I don't know
+  # why. Everything is installed correctly! So I decided to ignore it with `|| true`
+  vim -E -s -c "source $HOME/.vimrc" -c PluginInstall -c qa || true
 fi
