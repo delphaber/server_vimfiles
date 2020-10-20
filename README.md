@@ -21,11 +21,9 @@ Prerequisites: `vim` (7.4+), `git`, `silversearcher-ag`
    This will install `~/.vimrc` symlinks that point to
    files inside the `.vim` directory.
 
-4. Open vim (ignore error on missing color scheme), and run `:PluginInstall`.
+   This will also install Vundle dependencies.
 
-5. On install complete, quit vim and open it again.
-
-6. Profit!
+4. Profit!
 
 ## Author
 
