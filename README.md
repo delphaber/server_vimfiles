@@ -12,7 +12,7 @@ Prerequisites: `vim` (7.4+), `git`, `silversearcher-ag`
 
 2. Clone this repo into `.vim`:
 
-   `git clone https://github.com/welaika/server_vimfiles.git ~/.vim`
+   `git clone https://github.com/delphaber/server_vimfiles.git ~/.vim`
 
 3. Go into `.vim` and run `install.sh`:
 
